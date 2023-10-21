@@ -5,7 +5,10 @@ Uma base de modelo funcional projetado no Prisma, para sustentar uma API que faz
 - Marne Silva Matos de Amorim
 - Pedro Henrique Lucas Belo
 
+O professor responsável por ministrar a matéria e proporcionar a atividade de criação do projeto:
+- Otávio Lube
 
+  
 # Passos para iniciar o projeto Node e Typescript
 
  ## Iniciando o node
