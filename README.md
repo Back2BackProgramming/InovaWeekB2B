@@ -1,5 +1,10 @@
 # InovaWeek
-Uma base de modelo funcional projetado no Prisma, para sustentar uma API que faz pulls e requests de várias informações em um banco de dados relacional.
+Uma base de modelo funcional projetado no Prisma, para sustentar uma API que faz pulls e requests de várias informações em um banco de dados relacional. Criado pela turma CC4Mb da Universidade Vila Velha, cursando o curso de Ciência da Computação. Os integrantes do grupo são:
+- Arthur Buback
+- Caroline Andrade Silva
+- Marne Silva Matos de Amorim
+- Pedro Henrique Lucas Belo
+
 
 # Passos para iniciar o projeto Node e Typescript
 
