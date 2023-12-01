@@ -58,9 +58,7 @@ Caso o seu editor de texto apresente algum erro na linha de código da importaç
 ## Use o Prisma Migrate para criar o banco de dados
 npx prisma migrate dev --name init
 
-**IMPORTANTE:** A pasta prisma.rar já possui uma migração feita em seu histórico, mas realize o comando novamente, com o modelo lógico desejado no esquema do prisma.
-
-## Instalar o Express e o EJS:
+# Instalar o Express e o EJS:
 Baixar o express com os comandos:
 
 npm i express
