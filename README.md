@@ -60,39 +60,16 @@ npx prisma migrate dev --name init
 
 **IMPORTANTE:** A pasta prisma.rar já possui uma migração feita em seu histórico, mas realize o comando novamente, com o modelo lógico desejado no esquema do prisma.
 
-## Escreva queries de criação de tabelas e inserção de dados no arquivo Typescript desejado
-Siga esta estrutura:
+## Instalar o Express e o EJS:
+Baixar o express com os comandos:
 
-import { PrismaClient } from '@prisma/client'
-import { create } from 'domain'
-const prisma = new PrismaClient()
+npm i express
 
-async function main() {
-    const Example = await prisma.example.create({
-      data: { // Campos da table }
-    })
-    // Insira aqui todas as queries parecidas com esta acima
-}
-// Mandar as queries para o banco de dados
-main()
-    // O que fazer depois da promessa retornar (as queries serem enviadas)
-    .then(async () => {
-    await prisma.$disconnect()
-    })
-    // Catch para demonstrar o erro no console
-    .catch(async (e) => {
-    console.error(e)
-    await prisma.$disconnect()
-    process.exit(1)
-})
+npm i --save-dev @types/express
 
-## Rode com a aplicação do ts-node no terminal
-Entre no diretório em que se encontra o seu arquivo Typescript.
-cd .\src\
-Depois disso, rode no terminal o código:
-npx ts-node inova.ts
-Substitua inova.ts pelo nome do seu arquivo Typescript com as queries. Para este projeto, o nome do arquivo se chama inova.ts.
-Para visualizar os resultados, adicione o um console.log de uma constante no final da função assíncrona do seu arquivo Typescript.
+## Baixar o Ejs para visualizar na porta 3000
+
+npm install ejs
 
 # Explicações sobre o modelo lógico
 
