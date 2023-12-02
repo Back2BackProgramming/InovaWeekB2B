@@ -93,3 +93,9 @@ Logo, os campos maturidade, inovacao, apresentacao e atratividade representam ju
 ## Modelo Professor
 Cada professor é identificado pelo seu id, em todos os campos que forem relacionados. Um professor possui o seu nome, e uma lista de avaliações, na qual ele pode optar por preencher com várias avaliações ou nenhuma avaliação. A relação de professor-avaliação é caracterizada sendo 1:N, ou seja, um professor pode ter várias avaliações, mas uma avaliação só pode ter um professor atrelado à ela.
 
+# Minimundo
+
+A Inovaweek constitui uma iniciativa promovida pela Universidade de Vila Velha com o objetivo de introduzir propostas inovadoras no mercado. Ao longo dessa semana, o Inova recebe uma variedade de projetos concebidos por estudantes da instituição. Cada projeto, composto por, no máximo, quatro alunos, será avaliado por professores e outros colegas. As apresentações desses projetos têm datas e horários predeterminados, uma vez que os estandes serão utilizados por diferentes grupos em dias distintos.
+
+Os grupos participantes da Inovaweek serão identificados por um nome, um aluno designado como líder e um título para o seu projeto. Simultaneamente, os alunos serão reconhecidos por meio de sua matrícula, nome e grupo. Por fim, os professores terão um nome e um identificador pessoal associado.
+
